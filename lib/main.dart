@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
         '/signIn': (context) => SigninPages(),
         '/signUp': (context) => Signup(),
         '/detailChat': (context) => DetailChat(),
+        '/editPro': (context) => Editprofile(),
       },
       home: HomePage(),
     );

@@ -26,9 +26,9 @@ class _HomePageState extends State<HomePage> {
       case 1:
         return Chat();
       case 2:
-        return Wishlist();
+        return WishlistPage();
       case 3:
-        return Profile();
+        return Profilepage();
       default:
         return HomePage();
     }

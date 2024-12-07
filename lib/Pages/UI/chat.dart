@@ -35,8 +35,7 @@ class Chat extends StatelessWidget {
     return Scaffold(
         backgroundColor: backgroundColor1,
         body: ListView(
-          children: [header(), noMessage(), message()],
+          children: [header(), message()],
         ));
   }
 }
-

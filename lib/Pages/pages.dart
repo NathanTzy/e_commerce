@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:e_commerce/Pages/UI/widget/widget.dart';
 
 import 'package:e_commerce/shared/shared.dart';
@@ -15,3 +16,4 @@ part 'UI/main.dart';
 part 'UI/detail_chat.dart';
 part 'UI/profilePage.dart';
 part 'UI/editPro.dart';
+part 'product.dart';

@@ -38,6 +38,44 @@ class Profilepage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Padding(
+              padding: const EdgeInsets.only(bottom: 15),
+              child: Row(
+                children: [
+                  CircleAvatar(
+                    radius: 40,
+                    backgroundImage: AssetImage('asset/image_profile.png'),
+                  ),
+                  SizedBox(
+                    height: 12,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          'Niello',
+                          style: primaryTextStyle.copyWith(
+                              fontSize: 28, fontWeight: semiBold),
+                        ),
+                        Text(
+                          'Niello@jimel.kom',
+                          style: primaryTextStyle.copyWith(
+                              fontSize: 15, fontWeight: regular),
+                        ),
+                      ],
+                    ),
+                  )
+                ],
+              ),
+            ),
+            Divider(
+              thickness: 1,
+            ),
+            SizedBox(
+              height: 15,
+            ),
             Text(
               'Account',
               style: primaryTextStyle.copyWith(
@@ -52,7 +90,7 @@ class Profilepage extends StatelessWidget {
                 onTap: () {},
                 child: menuItem('Profile Settings', Icons.arrow_right)),
             GestureDetector(
-                onTap: () {}, child: menuItem('Logout', Icons.arrow_right)),
+                onTap: () {}, child: menuItem('Logout', Icons.exit_to_app)),
             SizedBox(
               height: 25,
             ),

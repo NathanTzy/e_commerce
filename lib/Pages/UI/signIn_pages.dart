@@ -164,13 +164,6 @@ class _SigninPagesState extends State<SigninPages> {
             width: 70,
           ),
         ),
-        ClipRRect(
-          borderRadius: BorderRadius.circular(10), // Border radius 15
-          child: Image(
-            image: AssetImage('asset/gg.png'),
-            width: 70,
-          ),
-        ),
       ],
     );
   }
